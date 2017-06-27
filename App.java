@@ -10,5 +10,8 @@ public class App {
     int length3 = Integer.parseInt(myConsole.readLine());
 
     Triangle newTriangle = new Triangle(length1, length2, length3);
+
+    String answer = newTriangle.determineTriangle(length1, length2, length3);
+    System.out.println(answer);
   }
 }
